@@ -50,7 +50,7 @@ Many of the repositories this page links to are private. Contact me if you'd lik
   </tr>
 </table>
 
-This repository contains several small-medium assignments from CS 480, the Artifical Intelligence course offered at Cal Poly San Luis Obispo. These assignments were structured as a variety of nuanced challenges, which each required a different algorithm and/or approach to solve quickly and efficiently. Although we were given some guidance on which algorithms to use, we were largely left on our own to research and determine implementation details.
+This repository contains several small-medium assignments from CS 480, the Artifical Intelligence course offered at Cal Poly San Luis Obispo. These assignments were structured as a variety of nuanced challenges, which each required a different algorithm and/or approach to solve quickly and efficiently. Although we were given some guidance on which algorithms to use, we were largely left on our own to research and discover implementation details.
 
 Some of the algorithms/concepts covered include:
 * [A* Search](https://en.wikipedia.org/wiki/A*_search_algorithm)
