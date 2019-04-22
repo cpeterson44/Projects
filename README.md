@@ -37,6 +37,10 @@ Many of the repositories this page links to are private. Contact me if you'd lik
     <td>Solo</td>
   </tr>
   <tr>
+    <th>Grade Recieved:</th>
+    <td>A-</td>
+  </tr>
+  <tr>
     <th>Repo link:</th>
     <td>www.github.com/cpeterson44/ai</td>
   </tr>
@@ -45,6 +49,20 @@ Many of the repositories this page links to are private. Contact me if you'd lik
     <td>No - college assignment</td>
   </tr>
 </table>
+
+This repository contains several small-medium assignments from CS 480, the Artifical Intelligence course offered at Cal Poly San Luis Obispo. These assignments were structured as a variety of nuanced challenges, which each required a different algorithm and/or approach to solve quickly and efficiently. Although we were given some guidance on which algorithms to use, we were largely left on our own to research and determine implementation details.
+
+Some of the algorithms/concepts covered include:
+* A* Search
+* Alpha-Beta Pruning
+* Beam Search
+* Boolean Algebra
+* Genetic Algorithms
+* Hill Climbing Search
+* Monte Carlo Simulation
+* Naive Bayes Classification
+* Simulated Annealing
+* Transpositions
 
 [[back to top](#contents)]
 
@@ -65,6 +83,10 @@ Many of the repositories this page links to are private. Contact me if you'd lik
   <tr>
     <th>Group Size:</th>
     <td>Solo</td>
+  </tr>
+  <tr>
+    <th>Grade Recieved:</th>
+    <td>A</td>
   </tr>
   <tr>
     <th>Repo link:</th>
@@ -250,6 +272,6 @@ Our file system was a layered implementation of the basic UNIX FS, containing a 
 * **Layer 2:** Functions that handle inodes and abstract them to files and directories
 * **Layer 3:** FUSE integration layer
 
-To improve performance and to match UNIX semantics, we also implented a bitmap for free inodes, an open file table, and an in-place free list. Additionally, we wrote automatic tests for each layer of our file system and added built-in debugging functionality at each step.
+To improve performance and to match UNIX semantics, we also implented a bitmap for free inodes, an open file table, and an in-place free list. Additionally, we wrote automatic tests for each layer of our file system and added built-in debugging functionality at each step of the design process.
 
 [[back to top](#contents)]
