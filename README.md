@@ -220,9 +220,9 @@ The project is a simple, robust implementation of the `malloc` family of functio
 * `calloc`
 * `free`
 
-These functions are all implemented using the `sbrk` system call, which can be used to allocate or deallocate raw memory on the heap. From there, additional bookeeping data is added to the beginning of each allocation to form a linked list. This bookeeping data guides subsequent calls to the `malloc` family functions to ensure that memory is not lost or overwritten.
+These functions are all implemented using the `sbrk` system call, which can be used to allocate or deallocate raw memory on the heap. From there, additional bookkeeping data is added to the beginning of each allocation to form a linked list. This bookkeeping data guides subsequent calls to the `malloc` family functions to ensure that memory is not lost, wasted, or overwritten.
 
-Once implemented with proper UNIX syntax and compiled into a C library file, these malloc functions were linked with existing C programs and test cases.
+Once implemented with proper UNIX syntax and compiled into a C library file, these malloc functions were linked with existing C programs and test cases. This demonstrated the implementation was reliable and performed reasonably well.
 
 [[back to top](#contents)]
 
