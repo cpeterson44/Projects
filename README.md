@@ -20,11 +20,31 @@ Many of the repositories this page links to are private. Contact me if you'd lik
 
 # Artificial Intelligence Projects <a name="ai"></a>
 
-Repo link: github.com/cpeterson44/ai
-Public: No - college assignment
-Language: Python
-Date: Winter 2017
-Group Size: Solo
+<table>
+  <tr>
+    <th colspan="2">Artificial Intelligence Projects</th>
+  </tr>
+  <tr>
+    <th>Date:</th>
+    <td>Winter 2017</td>
+  </tr>
+  <tr>
+    <th>Language:</th>
+    <td>Python</td>
+  </tr>
+  <tr>
+    <th>Group Size:</th>
+    <td>Solo</td>
+  </tr>
+  <tr>
+    <th>Repo link:</th>
+    <td>www.github.com/cpeterson44/ai</td>
+  </tr>
+  <tr>
+    <th>Public:</th>
+    <td>No - college assignment</td>
+  </tr>
+</table>
 
 [[back to top](#contents)]
 
