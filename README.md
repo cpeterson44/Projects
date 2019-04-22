@@ -53,16 +53,16 @@ Many of the repositories this page links to are private. Contact me if you'd lik
 This repository contains several small-medium assignments from CS 480, the Artifical Intelligence course offered at Cal Poly San Luis Obispo. These assignments were structured as a variety of nuanced challenges, which each required a different algorithm and/or approach to solve quickly and efficiently. Although we were given some guidance on which algorithms to use, we were largely left on our own to research and determine implementation details.
 
 Some of the algorithms/concepts covered include:
-* A* Search
-* Alpha-Beta Pruning
-* Beam Search
-* Boolean Algebra
-* Genetic Algorithms
-* Hill Climbing Search
-* Monte Carlo Simulation
-* Naive Bayes Classification
-* Simulated Annealing
-* Transpositions
+* [A* Search](https://en.wikipedia.org/wiki/A*_search_algorithm)
+* [Alpha-Beta Pruning](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning)
+* [Beam Search](https://en.wikipedia.org/wiki/Beam_search)
+* [Boolean Algebra](https://en.wikipedia.org/wiki/Boolean_algebra)
+* [Genetic Algorithms](https://en.wikipedia.org/wiki/Genetic_algorithm)
+* [Hill Climbing Search](https://en.wikipedia.org/wiki/Hill_climbing)
+* [Monte Carlo Simulation](https://en.wikipedia.org/wiki/Monte_Carlo_method)
+* [Naive Bayes Classification](https://en.wikipedia.org/wiki/Naive_Bayes_classifier)
+* [Simulated Annealing](https://en.wikipedia.org/wiki/Simulated_annealing)
+* [Transpositions](https://en.wikipedia.org/wiki/Transposition_(chess))
 
 [[back to top](#contents)]
 
@@ -97,6 +97,20 @@ Some of the algorithms/concepts covered include:
     <td>No - graduate assignment</td>
   </tr>
 </table>
+
+CTF (Capture the Flag) challenges are security exercises
+
+Some of the exploits/concepts covered include:
+* A* Search
+* Alpha-Beta Pruning
+* Beam Search
+* Boolean Algebra
+* Genetic Algorithms
+* Hill Climbing Search
+* Monte Carlo Simulation
+* Naive Bayes Classification
+* Simulated Annealing
+* Transpositions
 
 [[back to top](#contents)]
 
@@ -252,7 +266,7 @@ Some of the algorithms/concepts covered include:
   </tr>
 </table>
 
-FUSE (Filesystem in Userspace) is a software interface for Unix-like computer operating systems that lets non-privileged users create their own file systems in user space without editing kernel code. A FUSE file system is used the same as a standard file system except that all normal system calls (ex. mkdir, mknod, read, write, etc.) are passed to and handled by the FUSE program instead of the kernal.
+[FUSE (Filesystem in Userspace)](https://en.wikipedia.org/wiki/Filesystem_in_Userspace) is a software interface for Unix-like computer operating systems that lets non-privileged users create their own file systems in user space without editing kernel code. A FUSE file system is used the same as a standard file system except that all normal system calls (ex. mkdir, mknod, read, write, etc.) are passed to and handled by the FUSE program instead of the kernal.
 
 For this project, our group had to design a robust filesystem implementation from scratch in C. We implemented the following core Unix system calls, with syntax and return values matching the `man` page specifications:
 * `getattr`
