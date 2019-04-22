@@ -280,7 +280,7 @@ For this project, our group had to design a robust filesystem implementation fro
 * `read`
 * `write`
 
-Our file system was a layered implementation of the basic UNIX FS, containing a superblock, a list of inodes, and a list of data blocks:
+Our file system was a layered implementation of the [basic UNIX FS](https://en.wikipedia.org/wiki/Unix_File_System#History_and_evolution), containing a superblock, a list of inodes, and a list of data blocks:
 * **Layer 0:** Functions that handle raw disk bytes and abstract them to disk blocks
 * **Layer 1:** Functions that handle disk blocks and abstract them to inodes & data
 * **Layer 2:** Functions that handle inodes and abstract them to files and directories
