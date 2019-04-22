@@ -10,9 +10,11 @@
 
 # Introduction <a name="intro"></a>
 
+Hello!
+
 This github page serves as a publically-visible hub for many of the notable projects I am currently working on or have worked on in the past. This page intends to serve as a both a sampler to give an overall picture of the various projects I have worked on, as well as a resource that can direct individuals to repository links containing code and more detailed explanations.
 
-The projects on this page are not currently ordered in any meaningful way beyond simple alphabetical order. Each project's description contains a few important facts, including language and dates, as well as a brief summary of the problem and how the project aims to/solved it.
+The projects on this page are not currently ordered in any meaningful way beyond simple alphabetical order. Each project's description contains a few important facts, including language and dates, as well as a brief summary of the problem and how the project aims to solve/solved it.
 
 Many of the repositories this page links to are private. Contact me if you'd like access to them or to their code.
 
