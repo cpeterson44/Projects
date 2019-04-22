@@ -201,6 +201,10 @@ Some of the exploits/concepts covered by the CTF challenges include:
     <td>Solo</td>
   </tr>
   <tr>
+    <th>Grade Recieved:</th>
+    <td>A</td>
+  </tr>
+  <tr>
     <th>Repo link:</th>
     <td>www.github.com/cpeterson44/malloc</td>
   </tr>
@@ -209,6 +213,16 @@ Some of the exploits/concepts covered by the CTF challenges include:
     <td>No - college assignment</td>
   </tr>
 </table>
+
+The project is a simple, robust implementation of the `malloc` family of functions in `libc` library. These are:
+* `malloc`
+* `realloc`
+* `calloc`
+* `free`
+
+These functions are all implemented using the `sbrk` system call, which can be used to allocate or deallocate raw memory on the heap. From there, additional bookeeping data is added to the beginning of each allocation to form a linked list. This bookeeping data guides subsequent calls to the `malloc` family functions to ensure that memory is not lost or overwritten.
+
+Once implemented with proper UNIX syntax and compiled into a C library file, these malloc functions were linked with existing C programs and test cases.
 
 [[back to top](#contents)]
 
