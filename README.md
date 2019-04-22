@@ -217,8 +217,8 @@ Many of the repositories this page links to are private. Contact me if you'd lik
     <td>3</td>
   </tr>
   <tr>
-    <th>asdf:</th>
-    <td>3</td>
+    <th>Grade Recieved:</th>
+    <td>A</td>
   </tr>
   <tr>
     <th>Repo link:</th>
@@ -245,7 +245,11 @@ For this project, our group had to design a robust filesystem implementation fro
 * `write`
 
 Our file system was a layered implementation of the basic UNIX FS, containing a superblock, a list of inodes, and a list of data blocks:
+* **Layer 0:** Functions that handle raw disk bytes and abstract them to disk blocks
+* **Layer 1:** Functions that handle disk blocks and abstract them to inodes & data
+* **Layer 2:** Functions that handle inodes and abstract them to files and directories
+* **Layer 3:** FUSE integration layer
 
-To improve performance and to match UNIX semantics, we also implented a bitmap for free inodes, an open file table, and an in-place free list.
+To improve performance and to match UNIX semantics, we also implented a bitmap for free inodes, an open file table, and an in-place free list. Additionally, we wrote automatic tests for each layer of our file system and added built-in debugging functionality at each step.
 
 [[back to top](#contents)]
