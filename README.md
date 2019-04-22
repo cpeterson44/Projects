@@ -217,6 +217,10 @@ Many of the repositories this page links to are private. Contact me if you'd lik
     <td>3</td>
   </tr>
   <tr>
+    <th>asdf:</th>
+    <td>3</td>
+  </tr>
+  <tr>
     <th>Repo link:</th>
     <td>www.github.com/cpeterson44/fuse</td>
   </tr>
@@ -225,5 +229,23 @@ Many of the repositories this page links to are private. Contact me if you'd lik
     <td>No - graduate assignment</td>
   </tr>
 </table>
+
+FUSE (Filesystem in Userspace) is a software interface for Unix-like computer operating systems that lets non-privileged users create their own file systems in user space without editing kernel code. A FUSE file system is used the same as a standard file system except that all normal system calls (ex. mkdir, mknod, read, write, etc.) are passed to and handled by the FUSE program instead of the kernal.
+
+For this project, our group had to design a robust filesystem implementation from scratch in C. We implemented the following core Unix system calls, with syntax and return values matching the `man` page specifications:
+* `getattr`
+* `readdir`
+* `mknod`
+* `mkdir`
+* `unlink`
+* `rmdir`
+* `truncate`
+* `open`
+* `read`
+* `write`
+
+Our file system was a layered implementation of the basic UNIX FS, containing a superblock, a list of inodes, and a list of data blocks:
+
+To improve performance and to match UNIX semantics, we also implented a bitmap for free inodes, an open file table, and an in-place free list.
 
 [[back to top](#contents)]
