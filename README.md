@@ -98,19 +98,27 @@ Some of the algorithms/concepts covered include:
   </tr>
 </table>
 
-CTF (Capture the Flag) challenges are security exercises
+[CTF (Capture the Flag) challenges](https://blogs.cisco.com/perspectives/cyber-security-capture-the-flag-ctf-what-is-it) are exercises designed to test a user's creativity and knowledge of security concepts. In these challenges, a vulnerable program or service is presented with a hidden "flag" that can only be accessed by someone who has discovered the vulnerability and compromised the security of the program.
 
-Some of the exploits/concepts covered include:
-* A* Search
-* Alpha-Beta Pruning
-* Beam Search
-* Boolean Algebra
-* Genetic Algorithms
-* Hill Climbing Search
-* Monte Carlo Simulation
-* Naive Bayes Classification
-* Simulated Annealing
-* Transpositions
+This repository contains my solutions to the CTF challenges for CS 279, one of UCSB's graduate Computer Security courses. Where possible, I've included the challenge binary and a description of the challenge, the vulnerability, and the attack my program executes to get the flag. Most of the exploits are 100% reliable, but due to the nature of some of the challenges, some exploits require multiple attempts to access the flag.
+
+Some of the exploits/concepts covered by the CTF challenges include:
+* [Arbitrary Code Execution](https://en.wikipedia.org/wiki/Arbitrary_code_execution)
+* [ASLR & Address Leaks](https://en.wikipedia.org/wiki/Address_space_layout_randomization)
+* [Brute-Force Attacks](https://en.wikipedia.org/wiki/Brute-force_attack)
+* [Buffer Overflows/Underflows](https://en.wikipedia.org/wiki/Buffer_overflow)
+* [Cryptography](https://en.wikipedia.org/wiki/Cryptography)
+* [Directory Traversal Attacks](https://en.wikipedia.org/wiki/Directory_traversal_attack)
+* [Environment Variables](https://en.wikipedia.org/wiki/Environment_variable)
+* [Format String Attacks](https://en.wikipedia.org/wiki/Uncontrolled_format_string)
+* [Hash Functions](https://en.wikipedia.org/wiki/Hash_function)
+* [Heap Corruption](https://heap-exploitation.dhavalkapil.com/attacks/)
+* [Input Validation/Sanitization](https://download.oracle.com/oll/tutorials/SQLInjection/html/lesson1/les01_tm_ovw3.htm)
+* [Pseduo-random number generation](https://en.wikipedia.org/wiki/Pseudorandom_number_generator)
+* [Race Conditions](https://en.wikipedia.org/wiki/Race_condition)
+* [Return Oriented Programming & ROP Chaining](https://en.wikipedia.org/wiki/Return-oriented_programming)
+* [Spoofing Attacks](https://en.wikipedia.org/wiki/Spoofing_attack)
+* [Stack Overflows/Underflows](https://en.wikipedia.org/wiki/Stack_buffer_overflow)
 
 [[back to top](#contents)]
 
