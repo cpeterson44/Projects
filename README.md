@@ -26,7 +26,7 @@ Many of the repositories this page links to are private. Contact me if you'd lik
   </tr>
   <tr>
     <th>Date:</th>
-    <td>Winter 2017</td>
+    <td>Winter 2018</td>
   </tr>
   <tr>
     <th>Language:</th>
@@ -50,24 +50,180 @@ Many of the repositories this page links to are private. Contact me if you'd lik
 
 # Application Security CTF Challenges <a name="security"></a>
 
+<table>
+  <tr>
+    <th colspan="2">Application Security CTF Challenges</th>
+  </tr>
+  <tr>
+    <th>Date:</th>
+    <td>Fall 2018</td>
+  </tr>
+  <tr>
+    <th>Language:</th>
+    <td>Python, Assembly, and C</td>
+  </tr>
+  <tr>
+    <th>Group Size:</th>
+    <td>Solo</td>
+  </tr>
+  <tr>
+    <th>Repo link:</th>
+    <td>www.github.com/cpeterson44/security</td>
+  </tr>
+  <tr>
+    <th>Public:</th>
+    <td>No - graduate assignment</td>
+  </tr>
+</table>
+
 [[back to top](#contents)]
 
 # Battleship AI <a name="battleship"></a>
+
+<table>
+  <tr>
+    <th colspan="2">Battleship AI</th>
+  </tr>
+  <tr>
+    <th>Date:</th>
+    <td>Winter 2017</td>
+  </tr>
+  <tr>
+    <th>Language:</th>
+    <td>C</td>
+  </tr>
+  <tr>
+    <th>Group Size:</th>
+    <td>Solo</td>
+  </tr>
+  <tr>
+    <th>Repo link:</th>
+    <td>www.github.com/cpeterson44/battleship</td>
+  </tr>
+  <tr>
+    <th>Public:</th>
+    <td>No - college assignment</td>
+  </tr>
+</table>
 
 [[back to top](#contents)]
 
 # Chess AI Research Paper <a name="chess"></a>
 
+<table>
+  <tr>
+    <th colspan="2">Chess AI Research Paper</th>
+  </tr>
+  <tr>
+    <th>Date:</th>
+    <td>Winter-Spring 2018</td>
+  </tr>
+  <tr>
+    <th>Language:</th>
+    <td>LaTeX</td>
+  </tr>
+  <tr>
+    <th>Group Size:</th>
+    <td>Solo</td>
+  </tr>
+  <tr>
+    <th>Repo link:</th>
+    <td>www.github.com/cpeterson44/chess</td>
+  </tr>
+  <tr>
+    <th>Public:</th>
+    <td>No - college assignment</td>
+  </tr>
+</table>
+
 [[back to top](#contents)]
 
 # Malloc Implementation <a name="malloc"></a>
+
+<table>
+  <tr>
+    <th colspan="2">Malloc Implementation</th>
+  </tr>
+  <tr>
+    <th>Date:</th>
+    <td>Fall 2017</td>
+  </tr>
+  <tr>
+    <th>Language:</th>
+    <td>C</td>
+  </tr>
+  <tr>
+    <th>Group Size:</th>
+    <td>Solo</td>
+  </tr>
+  <tr>
+    <th>Repo link:</th>
+    <td>www.github.com/cpeterson44/malloc</td>
+  </tr>
+  <tr>
+    <th>Public:</th>
+    <td>No - college assignment</td>
+  </tr>
+</table>
 
 [[back to top](#contents)]
 
 # Multicontroller <a name="multicontroller"></a>
 
+<table>
+  <tr>
+    <th colspan="2">Multicontroller</th>
+  </tr>
+  <tr>
+    <th>Date:</th>
+    <td>Winter 2019</td>
+  </tr>
+  <tr>
+    <th>Language:</th>
+    <td>C#</td>
+  </tr>
+  <tr>
+    <th>Group Size:</th>
+    <td>Solo</td>
+  </tr>
+  <tr>
+    <th>Repo link:</th>
+    <td>www.github.com/cpeterson44/multicontroller</td>
+  </tr>
+  <tr>
+    <th>Public:</th>
+    <td>No - actively in development</td>
+  </tr>
+</table>
+
 [[back to top](#contents)]
 
 # UNIX Filesystem Implementation via FUSE <a name="fuse"></a>
+
+<table>
+  <tr>
+    <th colspan="2">UNIX Filesystem Implementation via FUSE</th>
+  </tr>
+  <tr>
+    <th>Date:</th>
+    <td>Fall 2018</td>
+  </tr>
+  <tr>
+    <th>Language:</th>
+    <td>C</td>
+  </tr>
+  <tr>
+    <th>Group Size:</th>
+    <td>3</td>
+  </tr>
+  <tr>
+    <th>Repo link:</th>
+    <td>www.github.com/cpeterson44/fuse</td>
+  </tr>
+  <tr>
+    <th>Public:</th>
+    <td>No - graduate assignment</td>
+  </tr>
+</table>
 
 [[back to top](#contents)]
