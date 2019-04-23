@@ -154,9 +154,11 @@ Some of the exploits/concepts covered by the CTF challenges include:
   </tr>
 </table>
 
-My unnamed Battleship AI program 
+This Battleship AI program was a submission for an assignment in CPE 357, Cal Poly's Systems Programming course. For this assignment, every student had to research, write, and test their own [Battleship-playing](https://en.wikipedia.org/wiki/Battleship_(game)) AI. The algorithms would then face eachother in an automated tournament, where the highest rated player would be given a 100% assignment score, and the lowest would recieve a 0% score.
 
-This program performed extremely well
+My initial approach to this problem was to use Monte-Carlo simulation, but the heavy constraints placed on CPU time prevented this from being a great option. My revised solution was a heavily modified search-and-hunt algorithm which first searched likely ship locations and then hunted any hit ships until they were sunk. This approach made heavy use of a stack, which allowed dealt with the uncertainty in Battleship by allowing the program to make guesses and then revert its state if they turned out to be wrong.
+
+This program performed extremely well and ranked above the professor's solution. Out of all the students taking the course (100+), this AI placed in the top 3, earning me a perfect score on the assignment.
 
 [[back to top](#contents)]
 
