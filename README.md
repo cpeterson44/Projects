@@ -141,6 +141,10 @@ Some of the exploits/concepts covered by the CTF challenges include:
     <td>Solo</td>
   </tr>
   <tr>
+    <th>Grade Recieved:</th>
+    <td>A</td>
+  </tr>
+  <tr>
     <th>Repo link:</th>
     <td>www.github.com/cpeterson44/battleship</td>
   </tr>
@@ -149,6 +153,10 @@ Some of the exploits/concepts covered by the CTF challenges include:
     <td>No - college assignment</td>
   </tr>
 </table>
+
+My unnamed Battleship AI program 
+
+This program performed extremely well
 
 [[back to top](#contents)]
 
@@ -171,6 +179,10 @@ Some of the exploits/concepts covered by the CTF challenges include:
     <td>Solo</td>
   </tr>
   <tr>
+    <th>Grade Recieved:</th>
+    <td>A</td>
+  </tr>
+  <tr>
     <th>Repo link:</th>
     <td>www.github.com/cpeterson44/chess</td>
   </tr>
@@ -180,9 +192,9 @@ Some of the exploits/concepts covered by the CTF challenges include:
   </tr>
 </table>
 
-This is a 50+ page research paper I did for my senior project at Cal Poly San Luis Obispo. This paper examines the importance (or lack thereof) of endgame tablebases in modern chess-playing AI. Endgame tablebases are essentially massive (5GB to 100TB) look-up tables for engines to reference when playing out known positions with only a few pieces remaining on the board. Their importance is a topic of debate amongst chess engine creators: modern chess engines in the endgame even without tablebases due to their ability to look many (30+) turns into the future on simple boards.
+This is a 67 page research paper I wrote for my senior project at Cal Poly San Luis Obispo. This paper examines the importance (or lack thereof) of endgame tablebases in modern chess-playing AI. Endgame tablebases are essentially massive (5GB to 100TB) look-up tables for engines to reference when playing out known positions with only a few pieces remaining on the board. Their importance is a topic of debate amongst chess engine creators: modern chess engines in the endgame even without tablebases due to their ability to look many (30+) turns into the future on simple boards.
 
-This paper concludes that endgame tablebases provide a fairly small advantage in close games between highly skilled engines. Access to endgame tablebases will not greatly improve a poorly preforming engine, as their usefulness requires the engine reach the endgame without an insurmountable deficit. This paper also finds that "pruned tablebases", or tablebases with exceedingly rare positions removed, offer similar performance with large space savings.
+This paper uses 5,000+ games played over 800+ hours of chess gameplay to conclude that endgame tablebases provide a fairly small advantage in close games between highly skilled engines. Access to endgame tablebases will not greatly improve a poorly preforming engine, as their usefulness requires the engine reach the endgame without an insurmountable deficit. This paper also finds that "pruned tablebases", or tablebases with exceedingly rare positions removed, offer similar performance with large space savings.
 
 [[back to top](#contents)]
 
