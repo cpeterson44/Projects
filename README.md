@@ -180,6 +180,10 @@ Some of the exploits/concepts covered by the CTF challenges include:
   </tr>
 </table>
 
+This is a 50+ page research paper I did for my senior project at Cal Poly San Luis Obispo. This paper examines the importance (or lack thereof) of endgame tablebases in modern chess-playing AI. Endgame tablebases are essentially massive (5GB to 100TB) look-up tables for engines to reference when playing out known positions with only a few pieces remaining on the board. Their importance is a topic of debate amongst chess engine creators: modern chess engines in the endgame even without tablebases due to their ability to look many (30+) turns into the future on simple boards.
+
+This paper concludes that endgame tablebases provide a fairly small advantage in close games between highly skilled engines. Access to endgame tablebases will not greatly improve a poorly preforming engine, as their usefulness requires the engine reach the endgame without an insurmountable deficit. This paper also finds that "pruned tablebases", or tablebases with exceedingly rare positions removed, offer similar performance with large space savings.
+
 [[back to top](#contents)]
 
 # Malloc Implementation <a name="malloc"></a>
@@ -256,7 +260,7 @@ Once implemented with proper UNIX syntax and compiled into a C library file, the
 
 Multicontroller (also known as Chris's Multicontroller) is an extremely flexible fully-featured [multi-boxing](https://en.wikipedia.org/wiki/Multi-boxing) program that allows users to play as many as 20+ accounts at once in a variety of MMORPGs. At the time of writing, Chris's Multicontroller is one of the most capable multi-boxing programs available and contains many quality-of-life features including automatic client detection/placement, customizable keybinds, and fully programmable in-game functionality using a simple interpreted programming language.
 
-Multicontroller uses numerous Windows API functions to draw on, resize, control, and gather information about actively running windows without injecting code or reading process memory (which would flag it as a cheat client). The program also uses the low-level Windows message passing API functions to send commands to clients without requiring them to have focus or be visible (as is required for the high-level SendInput function). Getting all of this to work reliably took a ton of research and experimentation and I'm extremely satisfied with the outcome.
+Multicontroller uses numerous Windows API functions to draw on, resize, control, and gather information about actively running windows without injecting code or reading process memory (which would flag it as a cheat client). The program also uses the low-level Windows message passing API functions to send commands to clients without requiring them to have focus or be visible (as is required for the high-level SendInput function). Getting all of this to work reliably took a ton of research and experimentation and I'm extremely satisfied with how it's turned out so far.
 
 Multicontroller has seen a public "narrow release" to some of my close friends to gather feedback and test functionality. At the time of writing, the program has been distributed to around 10 users and has seen a combined 1000+ hours of use with no major issues.
 
