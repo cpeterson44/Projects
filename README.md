@@ -254,6 +254,12 @@ Once implemented with proper UNIX syntax and compiled into a C library file, the
   </tr>
 </table>
 
+Multicontroller (also known as Chris's Multicontroller) is an extremely flexible fully-featured [multi-boxing](https://en.wikipedia.org/wiki/Multi-boxing) program that allows users to play as many as 20+ accounts at once in a variety of MMORPGs. At the time of writing, Chris's Multicontroller is one of the most capable multi-boxing programs available and contains many quality-of-life features including automatic client detection/placement, customizable keybinds, and fully programmable in-game functionality using a simple interpreted programming language.
+
+Multicontroller uses numerous Windows API functions to draw on, resize, control, and gather information about actively running windows without injecting code or reading process memory (which would flag it as a cheat client). The program also uses the low-level Windows message passing API functions to send commands to clients without requiring them to have focus or be visible (as is required for the high-level SendInput function).
+
+Multicontroller has seen a public "narrow release" to some of my close friends to gather feedback and test functionality. At the time of writing, the program has been distributed to around 10 users and has seen a combined 1000+ hours of use with no major issues.
+
 [[back to top](#contents)]
 
 # UNIX Filesystem Implementation via FUSE <a name="fuse"></a>
